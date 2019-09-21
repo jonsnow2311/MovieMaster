@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--<ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/moviePoster"/> -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/movieName"
+        android:padding="@dimen/activity_padding"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:background="@color/titleColor"
+        android:textColor="@color/textColor"
+        android:text="Title"
+        android:textStyle="normal|bold"
+        android:textAllCaps="true" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/runtime"
+        android:padding="@dimen/activity_padding"
+        android:textAlignment="center"
+        android:textSize="15dp"
+        android:textColor="@color/textColor"
+        android:text="runtime"
+        android:background="@color/alternateColorLight" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_padding"
+        android:textSize="15dp"
+        android:textAlignment="center"
+        android:textColor="@color/textColor"
+        android:id="@+id/releaseDate"
+        android:background="@color/alternateColorDark"
+        android:text="abcd" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_padding"
+        android:textSize="15dp"
+        android:textAlignment="center"
+        android:textColor="@color/textColor"
+        android:background="@color/alternateColorLight"
+        android:id="@+id/director" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_padding"
+        android:textSize="15dp"
+        android:textAlignment="center"
+        android:textColor="@color/textColor"
+        android:background="@color/alternateColorDark"
+        android:id="@+id/genre"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_padding"
+        android:textSize="15dp"
+        android:textAlignment="center"
+        android:textColor="@color/textColor"
+        android:background="@color/alternateColorLight"
+        android:id="@+id/cast"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_padding"
+        android:textSize="15dp"
+        android:background="@color/alternateColorDark"
+        android:textAlignment="center"
+        android:textColor="@color/textColor"
+        android:id="@+id/plot"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/alternateColorLight"
+        android:padding="@dimen/activity_padding"
+        android:textSize="15dp"
+        android:textAlignment="center"
+        android:textColor="@color/textColor"
+        android:id="@+id/imdbRating"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_padding"
+        android:textSize="15dp"
+        android:textAlignment="center"
+        android:textColor="@color/textColor"
+        android:background="@color/alternateColorDark"
+        android:id="@+id/boxOffice"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_padding"
+        android:textSize="15dp"
+        android:textAlignment="center"
+        android:background="@color/alternateColorLight"
+        android:textColor="@color/textColor"
+        android:id="@+id/production"/>
+
+</LinearLayout>
